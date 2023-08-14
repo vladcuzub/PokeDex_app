@@ -1,0 +1,23 @@
+.logo_pic {
+  width: 160px;
+  height: auto;
+  margin-top: 3rem;
+  margin: 0 auto;
+
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 2.5rem 0 3.5rem 0;
+      box-shadow: 1px 1px 10px rgba(25, 25, 25, 0.448);
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}

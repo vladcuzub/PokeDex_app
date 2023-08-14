@@ -1,0 +1,14 @@
+
+.poke_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(260px,3fr));
+  gap: 4rem;
+}  
+
+@media (max-width: 768px) {
+  .poke_list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2rem;
+  }
+}
+
